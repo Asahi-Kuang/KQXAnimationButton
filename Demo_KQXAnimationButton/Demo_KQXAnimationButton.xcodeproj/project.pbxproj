@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		417945C01B9932C800E092C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 417945BF1B9932C800E092C0 /* main.m */; };
+		417945C31B9932C800E092C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 417945C21B9932C800E092C0 /* AppDelegate.m */; };
+		417945C61B9932C800E092C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 417945C51B9932C800E092C0 /* ViewController.m */; };
+		417945C91B9932C800E092C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 417945C71B9932C800E092C0 /* Main.storyboard */; };
+		417945CB1B9932C800E092C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 417945CA1B9932C800E092C0 /* Images.xcassets */; };
+		417945CE1B9932C800E092C0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 417945CC1B9932C800E092C0 /* LaunchScreen.xib */; };
+		417945DA1B9932C800E092C0 /* Demo_KQXAnimationButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 417945D91B9932C800E092C0 /* Demo_KQXAnimationButtonTests.m */; };
+		417945E61B9932D900E092C0 /* KQXAnimationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 417945E51B9932D900E092C0 /* KQXAnimationButton.m */; };
+		417945EC1B9937C700E092C0 /* RoundedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 417945EB1B9937C700E092C0 /* RoundedViewController.m */; };
+		417945F01B993C6900E092C0 /* WaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 417945EF1B993C6900E092C0 /* WaveViewController.m */; };
+		417945F41B993E6200E092C0 /* dest_CT_Local_Tourism_Header_banner_close_Image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 417945F11B993E6200E092C0 /* dest_CT_Local_Tourism_Header_banner_close_Image@2x.png */; };
+		417945F51B993E6200E092C0 /* flight_ico_flight_addpassenger_plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 417945F21B993E6200E092C0 /* flight_ico_flight_addpassenger_plus@2x.png */; };
+		417945F61B993E6200E092C0 /* flight_list_icon_red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 417945F31B993E6200E092C0 /* flight_list_icon_red@2x.png */; };
+		417945FA1B99405C00E092C0 /* ExtendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 417945F91B99405C00E092C0 /* ExtendViewController.m */; };
+		417945FC1B99413400E092C0 /* button_send_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 417945FB1B99413400E092C0 /* button_send_selected.png */; };
+		417946001B9941E100E092C0 /* MakeButtonScollOutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 417945FF1B9941E100E092C0 /* MakeButtonScollOutViewController.m */; };
+		417946031B99495500E092C0 /* OtherFourButtonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 417946021B99495500E092C0 /* OtherFourButtonsViewController.m */; };
+		417946061B994B8C00E092C0 /* nearby_flowers_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 417946051B994B8C00E092C0 /* nearby_flowers_icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		417945D41B9932C800E092C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 417945B21B9932C800E092C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 417945B91B9932C800E092C0;
+			remoteInfo = Demo_KQXAnimationButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		417945BA1B9932C800E092C0 /* Demo_KQXAnimationButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo_KQXAnimationButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		417945BE1B9932C800E092C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		417945BF1B9932C800E092C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		417945C11B9932C800E092C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		417945C21B9932C800E092C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		417945C41B9932C800E092C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		417945C51B9932C800E092C0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		417945C81B9932C800E092C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		417945CA1B9932C800E092C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		417945CD1B9932C800E092C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		417945D31B9932C800E092C0 /* Demo_KQXAnimationButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo_KQXAnimationButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		417945D81B9932C800E092C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		417945D91B9932C800E092C0 /* Demo_KQXAnimationButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_KQXAnimationButtonTests.m; sourceTree = "<group>"; };
+		417945E41B9932D900E092C0 /* KQXAnimationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KQXAnimationButton.h; sourceTree = "<group>"; };
+		417945E51B9932D900E092C0 /* KQXAnimationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KQXAnimationButton.m; sourceTree = "<group>"; };
+		417945E81B99330800E092C0 /* KQXPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KQXPrefixHeader.pch; sourceTree = "<group>"; };
+		417945EA1B9937C700E092C0 /* RoundedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundedViewController.h; sourceTree = "<group>"; };
+		417945EB1B9937C700E092C0 /* RoundedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundedViewController.m; sourceTree = "<group>"; };
+		417945EE1B993C6900E092C0 /* WaveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveViewController.h; sourceTree = "<group>"; };
+		417945EF1B993C6900E092C0 /* WaveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveViewController.m; sourceTree = "<group>"; };
+		417945F11B993E6200E092C0 /* dest_CT_Local_Tourism_Header_banner_close_Image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dest_CT_Local_Tourism_Header_banner_close_Image@2x.png"; sourceTree = "<group>"; };
+		417945F21B993E6200E092C0 /* flight_ico_flight_addpassenger_plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flight_ico_flight_addpassenger_plus@2x.png"; sourceTree = "<group>"; };
+		417945F31B993E6200E092C0 /* flight_list_icon_red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flight_list_icon_red@2x.png"; sourceTree = "<group>"; };
+		417945F81B99405C00E092C0 /* ExtendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtendViewController.h; sourceTree = "<group>"; };
+		417945F91B99405C00E092C0 /* ExtendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtendViewController.m; sourceTree = "<group>"; };
+		417945FB1B99413400E092C0 /* button_send_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_send_selected.png; sourceTree = "<group>"; };
+		417945FE1B9941E100E092C0 /* MakeButtonScollOutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakeButtonScollOutViewController.h; sourceTree = "<group>"; };
+		417945FF1B9941E100E092C0 /* MakeButtonScollOutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakeButtonScollOutViewController.m; sourceTree = "<group>"; };
+		417946011B99495500E092C0 /* OtherFourButtonsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OtherFourButtonsViewController.h; path = ../OtherFourButtonsViewController.h; sourceTree = "<group>"; };
+		417946021B99495500E092C0 /* OtherFourButtonsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OtherFourButtonsViewController.m; path = ../OtherFourButtonsViewController.m; sourceTree = "<group>"; };
+		417946051B994B8C00E092C0 /* nearby_flowers_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nearby_flowers_icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		417945B71B9932C800E092C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417945D01B9932C800E092C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		417945B11B9932C800E092C0 = {
+			isa = PBXGroup;
+			children = (
+				417945BC1B9932C800E092C0 /* Demo_KQXAnimationButton */,
+				417945D61B9932C800E092C0 /* Demo_KQXAnimationButtonTests */,
+				417945BB1B9932C800E092C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		417945BB1B9932C800E092C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				417945BA1B9932C800E092C0 /* Demo_KQXAnimationButton.app */,
+				417945D31B9932C800E092C0 /* Demo_KQXAnimationButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		417945BC1B9932C800E092C0 /* Demo_KQXAnimationButton */ = {
+			isa = PBXGroup;
+			children = (
+				417946051B994B8C00E092C0 /* nearby_flowers_icon@2x.png */,
+				417945FB1B99413400E092C0 /* button_send_selected.png */,
+				417945F11B993E6200E092C0 /* dest_CT_Local_Tourism_Header_banner_close_Image@2x.png */,
+				417945F21B993E6200E092C0 /* flight_ico_flight_addpassenger_plus@2x.png */,
+				417945F31B993E6200E092C0 /* flight_list_icon_red@2x.png */,
+				417945E31B9932D900E092C0 /* KQXAnimationButton */,
+				417945E91B9937A900E092C0 /* 任意度数成正圆 */,
+				417945ED1B993C5400E092C0 /* 波浪动画效果 */,
+				417945F71B99404600E092C0 /* 伸展动画 */,
+				417945FD1B9941CD00E092C0 /* 甩出按钮动画 */,
+				417946041B99496900E092C0 /* 弹出四个按钮动画 */,
+				417945C11B9932C800E092C0 /* AppDelegate.h */,
+				417945C21B9932C800E092C0 /* AppDelegate.m */,
+				417945C41B9932C800E092C0 /* ViewController.h */,
+				417945C51B9932C800E092C0 /* ViewController.m */,
+				417945E81B99330800E092C0 /* KQXPrefixHeader.pch */,
+				417945C71B9932C800E092C0 /* Main.storyboard */,
+				417945CA1B9932C800E092C0 /* Images.xcassets */,
+				417945CC1B9932C800E092C0 /* LaunchScreen.xib */,
+				417945BD1B9932C800E092C0 /* Supporting Files */,
+			);
+			path = Demo_KQXAnimationButton;
+			sourceTree = "<group>";
+		};
+		417945BD1B9932C800E092C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				417945BE1B9932C800E092C0 /* Info.plist */,
+				417945BF1B9932C800E092C0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		417945D61B9932C800E092C0 /* Demo_KQXAnimationButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				417945D91B9932C800E092C0 /* Demo_KQXAnimationButtonTests.m */,
+				417945D71B9932C800E092C0 /* Supporting Files */,
+			);
+			path = Demo_KQXAnimationButtonTests;
+			sourceTree = "<group>";
+		};
+		417945D71B9932C800E092C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				417945D81B9932C800E092C0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		417945E31B9932D900E092C0 /* KQXAnimationButton */ = {
+			isa = PBXGroup;
+			children = (
+				417945E41B9932D900E092C0 /* KQXAnimationButton.h */,
+				417945E51B9932D900E092C0 /* KQXAnimationButton.m */,
+			);
+			path = KQXAnimationButton;
+			sourceTree = "<group>";
+		};
+		417945E91B9937A900E092C0 /* 任意度数成正圆 */ = {
+			isa = PBXGroup;
+			children = (
+				417945EA1B9937C700E092C0 /* RoundedViewController.h */,
+				417945EB1B9937C700E092C0 /* RoundedViewController.m */,
+			);
+			path = "任意度数成正圆";
+			sourceTree = "<group>";
+		};
+		417945ED1B993C5400E092C0 /* 波浪动画效果 */ = {
+			isa = PBXGroup;
+			children = (
+				417945EE1B993C6900E092C0 /* WaveViewController.h */,
+				417945EF1B993C6900E092C0 /* WaveViewController.m */,
+			);
+			name = "波浪动画效果";
+			path = "任意度数成正圆/波浪动画效果";
+			sourceTree = "<group>";
+		};
+		417945F71B99404600E092C0 /* 伸展动画 */ = {
+			isa = PBXGroup;
+			children = (
+				417945F81B99405C00E092C0 /* ExtendViewController.h */,
+				417945F91B99405C00E092C0 /* ExtendViewController.m */,
+			);
+			path = "伸展动画";
+			sourceTree = "<group>";
+		};
+		417945FD1B9941CD00E092C0 /* 甩出按钮动画 */ = {
+			isa = PBXGroup;
+			children = (
+				417945FE1B9941E100E092C0 /* MakeButtonScollOutViewController.h */,
+				417945FF1B9941E100E092C0 /* MakeButtonScollOutViewController.m */,
+			);
+			path = "甩出按钮动画";
+			sourceTree = "<group>";
+		};
+		417946041B99496900E092C0 /* 弹出四个按钮动画 */ = {
+			isa = PBXGroup;
+			children = (
+				417946011B99495500E092C0 /* OtherFourButtonsViewController.h */,
+				417946021B99495500E092C0 /* OtherFourButtonsViewController.m */,
+			);
+			path = "弹出四个按钮动画";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		417945B91B9932C800E092C0 /* Demo_KQXAnimationButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 417945DD1B9932C800E092C0 /* Build configuration list for PBXNativeTarget "Demo_KQXAnimationButton" */;
+			buildPhases = (
+				417945B61B9932C800E092C0 /* Sources */,
+				417945B71B9932C800E092C0 /* Frameworks */,
+				417945B81B9932C800E092C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo_KQXAnimationButton;
+			productName = Demo_KQXAnimationButton;
+			productReference = 417945BA1B9932C800E092C0 /* Demo_KQXAnimationButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		417945D21B9932C800E092C0 /* Demo_KQXAnimationButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 417945E01B9932C800E092C0 /* Build configuration list for PBXNativeTarget "Demo_KQXAnimationButtonTests" */;
+			buildPhases = (
+				417945CF1B9932C800E092C0 /* Sources */,
+				417945D01B9932C800E092C0 /* Frameworks */,
+				417945D11B9932C800E092C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				417945D51B9932C800E092C0 /* PBXTargetDependency */,
+			);
+			name = Demo_KQXAnimationButtonTests;
+			productName = Demo_KQXAnimationButtonTests;
+			productReference = 417945D31B9932C800E092C0 /* Demo_KQXAnimationButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		417945B21B9932C800E092C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = asahi_kuang;
+				TargetAttributes = {
+					417945B91B9932C800E092C0 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 5LYSR39744;
+					};
+					417945D21B9932C800E092C0 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 417945B91B9932C800E092C0;
+					};
+				};
+			};
+			buildConfigurationList = 417945B51B9932C800E092C0 /* Build configuration list for PBXProject "Demo_KQXAnimationButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 417945B11B9932C800E092C0;
+			productRefGroup = 417945BB1B9932C800E092C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				417945B91B9932C800E092C0 /* Demo_KQXAnimationButton */,
+				417945D21B9932C800E092C0 /* Demo_KQXAnimationButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		417945B81B9932C800E092C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417945F51B993E6200E092C0 /* flight_ico_flight_addpassenger_plus@2x.png in Resources */,
+				417946061B994B8C00E092C0 /* nearby_flowers_icon@2x.png in Resources */,
+				417945C91B9932C800E092C0 /* Main.storyboard in Resources */,
+				417945F41B993E6200E092C0 /* dest_CT_Local_Tourism_Header_banner_close_Image@2x.png in Resources */,
+				417945F61B993E6200E092C0 /* flight_list_icon_red@2x.png in Resources */,
+				417945CE1B9932C800E092C0 /* LaunchScreen.xib in Resources */,
+				417945FC1B99413400E092C0 /* button_send_selected.png in Resources */,
+				417945CB1B9932C800E092C0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417945D11B9932C800E092C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		417945B61B9932C800E092C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417945C61B9932C800E092C0 /* ViewController.m in Sources */,
+				417945C31B9932C800E092C0 /* AppDelegate.m in Sources */,
+				417945EC1B9937C700E092C0 /* RoundedViewController.m in Sources */,
+				417945F01B993C6900E092C0 /* WaveViewController.m in Sources */,
+				417945C01B9932C800E092C0 /* main.m in Sources */,
+				417946031B99495500E092C0 /* OtherFourButtonsViewController.m in Sources */,
+				417945FA1B99405C00E092C0 /* ExtendViewController.m in Sources */,
+				417945E61B9932D900E092C0 /* KQXAnimationButton.m in Sources */,
+				417946001B9941E100E092C0 /* MakeButtonScollOutViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417945CF1B9932C800E092C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417945DA1B9932C800E092C0 /* Demo_KQXAnimationButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		417945D51B9932C800E092C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 417945B91B9932C800E092C0 /* Demo_KQXAnimationButton */;
+			targetProxy = 417945D41B9932C800E092C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		417945C71B9932C800E092C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				417945C81B9932C800E092C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		417945CC1B9932C800E092C0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				417945CD1B9932C800E092C0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		417945DB1B9932C800E092C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		417945DC1B9932C800E092C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		417945DE1B9932C800E092C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Demo_KQXAnimationButton/KQXPrefixHeader.pch";
+				INFOPLIST_FILE = Demo_KQXAnimationButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		417945DF1B9932C800E092C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Demo_KQXAnimationButton/KQXPrefixHeader.pch";
+				INFOPLIST_FILE = Demo_KQXAnimationButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		417945E11B9932C800E092C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Demo_KQXAnimationButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo_KQXAnimationButton.app/Demo_KQXAnimationButton";
+			};
+			name = Debug;
+		};
+		417945E21B9932C800E092C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Demo_KQXAnimationButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo_KQXAnimationButton.app/Demo_KQXAnimationButton";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		417945B51B9932C800E092C0 /* Build configuration list for PBXProject "Demo_KQXAnimationButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417945DB1B9932C800E092C0 /* Debug */,
+				417945DC1B9932C800E092C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		417945DD1B9932C800E092C0 /* Build configuration list for PBXNativeTarget "Demo_KQXAnimationButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417945DE1B9932C800E092C0 /* Debug */,
+				417945DF1B9932C800E092C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		417945E01B9932C800E092C0 /* Build configuration list for PBXNativeTarget "Demo_KQXAnimationButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417945E11B9932C800E092C0 /* Debug */,
+				417945E21B9932C800E092C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 417945B21B9932C800E092C0 /* Project object */;
+}
