@@ -3,7 +3,7 @@
 
 **Version: 1.1v**
 **Author: Asahi Kuang**
-**Emaile: kqx18681632146@live.com**
+**Email: kqx18681632146@live.com**
 **QQ: 375961900**
 
 ##KQXAnimationButton
